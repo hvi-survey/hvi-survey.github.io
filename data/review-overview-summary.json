@@ -1,0 +1,2288 @@
+{
+  "source": "data/studies.js",
+  "unique_studies": 82,
+  "year_range": [
+    "2015",
+    "2023"
+  ],
+  "scope_note": "The website describes 99 articles; this export covers only the 82 unique records in the local dataset.",
+  "counting": "One study per Sankey stage; multiple study methods, scenario tags and model families form explicit exclusive groups. Raw tag statistics overlap and count each study once per tag. Links are adjacent-stage cross-tabulations, not causal or temporal transitions.",
+  "statistics": {
+    "Research focus": [
+      {
+        "category": "Human Behavior Understanding and Prediction",
+        "studies": 57,
+        "percent": 69.5
+      },
+      {
+        "category": "Communication Design + Behavior Evaluation",
+        "studies": 21,
+        "percent": 25.6
+      },
+      {
+        "category": "Data Collection Methods Comparison",
+        "studies": 4,
+        "percent": 4.9
+      }
+    ],
+    "Study method (overlapping)": [
+      {
+        "category": "VR HMD",
+        "studies": 43,
+        "percent": 52.4
+      },
+      {
+        "category": "VR CAVE",
+        "studies": 15,
+        "percent": 18.3
+      },
+      {
+        "category": "Wizard-of-Oz",
+        "studies": 11,
+        "percent": 13.4
+      },
+      {
+        "category": "Field Study",
+        "studies": 6,
+        "percent": 7.3
+      },
+      {
+        "category": "Online Video Survey",
+        "studies": 5,
+        "percent": 6.1
+      },
+      {
+        "category": "VR screen",
+        "studies": 3,
+        "percent": 3.7
+      },
+      {
+        "category": "Photo Survey",
+        "studies": 1,
+        "percent": 1.2
+      },
+      {
+        "category": "360 Video VR",
+        "studies": 1,
+        "percent": 1.2
+      },
+      {
+        "category": "AR HMD",
+        "studies": 1,
+        "percent": 1.2
+      },
+      {
+        "category": "AR",
+        "studies": 1,
+        "percent": 1.2
+      },
+      {
+        "category": "Web Survey",
+        "studies": 1,
+        "percent": 1.2
+      }
+    ],
+    "Road-user group": [
+      {
+        "category": "Pedestrians only",
+        "studies": 74,
+        "percent": 90.2
+      },
+      {
+        "category": "Cyclists only",
+        "studies": 4,
+        "percent": 4.9
+      },
+      {
+        "category": "Pedestrians & cyclists",
+        "studies": 4,
+        "percent": 4.9
+      }
+    ],
+    "Scenario tag (overlapping)": [
+      {
+        "category": "unsignalized",
+        "studies": 62,
+        "percent": 75.6
+      },
+      {
+        "category": "intersection",
+        "studies": 10,
+        "percent": 12.2
+      },
+      {
+        "category": "shared",
+        "studies": 9,
+        "percent": 11.0
+      },
+      {
+        "category": "unclear",
+        "studies": 9,
+        "percent": 11.0
+      },
+      {
+        "category": "signalized",
+        "studies": 1,
+        "percent": 1.2
+      }
+    ],
+    "Model family (overlapping)": [
+      {
+        "category": "statistics",
+        "studies": 37,
+        "percent": 45.1
+      },
+      {
+        "category": "linear",
+        "studies": 22,
+        "percent": 26.8
+      },
+      {
+        "category": "discrete-choice",
+        "studies": 21,
+        "percent": 25.6
+      },
+      {
+        "category": "hybrid",
+        "studies": 3,
+        "percent": 3.7
+      },
+      {
+        "category": "deep-learning",
+        "studies": 3,
+        "percent": 3.7
+      },
+      {
+        "category": "psychological",
+        "studies": 2,
+        "percent": 2.4
+      },
+      {
+        "category": "causal",
+        "studies": 1,
+        "percent": 1.2
+      }
+    ],
+    "Autonomous-system group": [
+      {
+        "category": "Autonomous car",
+        "studies": 74,
+        "percent": 90.2
+      },
+      {
+        "category": "Autonomous shuttle",
+        "studies": 7,
+        "percent": 8.5
+      },
+      {
+        "category": "Delivery vehicle",
+        "studies": 1,
+        "percent": 1.2
+      }
+    ],
+    "Modeling methods (exclusive groups)": [
+      {
+        "category": "Statistical tests / description",
+        "studies": 34,
+        "percent": 41.5
+      },
+      {
+        "category": "Linear models",
+        "studies": 18,
+        "percent": 22.0
+      },
+      {
+        "category": "Discrete-choice models",
+        "studies": 15,
+        "percent": 18.3
+      },
+      {
+        "category": "Multiple model families",
+        "studies": 6,
+        "percent": 7.3
+      },
+      {
+        "category": "Hybrid models",
+        "studies": 3,
+        "percent": 3.7
+      },
+      {
+        "category": "Deep learning",
+        "studies": 3,
+        "percent": 3.7
+      },
+      {
+        "category": "Psychological models",
+        "studies": 2,
+        "percent": 2.4
+      },
+      {
+        "category": "Causal models",
+        "studies": 1,
+        "percent": 1.2
+      }
+    ],
+    "Publication year": [
+      {
+        "category": "2020",
+        "studies": 17,
+        "percent": 20.7
+      },
+      {
+        "category": "2022",
+        "studies": 17,
+        "percent": 20.7
+      },
+      {
+        "category": "2021",
+        "studies": 16,
+        "percent": 19.5
+      },
+      {
+        "category": "2023",
+        "studies": 12,
+        "percent": 14.6
+      },
+      {
+        "category": "2019",
+        "studies": 10,
+        "percent": 12.2
+      },
+      {
+        "category": "2018",
+        "studies": 6,
+        "percent": 7.3
+      },
+      {
+        "category": "2016",
+        "studies": 2,
+        "percent": 2.4
+      },
+      {
+        "category": "2015",
+        "studies": 1,
+        "percent": 1.2
+      },
+      {
+        "category": "2017",
+        "studies": 1,
+        "percent": 1.2
+      }
+    ]
+  },
+  "sankey_stages": [
+    {
+      "name": "Research focus",
+      "nodes": [
+        {
+          "category": "Behavior understanding & prediction",
+          "studies": 57,
+          "percent": 69.5
+        },
+        {
+          "category": "Communication design & behavior evaluation",
+          "studies": 21,
+          "percent": 25.6
+        },
+        {
+          "category": "Data collection methods comparison",
+          "studies": 4,
+          "percent": 4.9
+        }
+      ]
+    },
+    {
+      "name": "Study method",
+      "nodes": [
+        {
+          "category": "VR HMD",
+          "studies": 39,
+          "percent": 47.6
+        },
+        {
+          "category": "VR CAVE",
+          "studies": 12,
+          "percent": 14.6
+        },
+        {
+          "category": "Wizard-of-Oz",
+          "studies": 9,
+          "percent": 11.0
+        },
+        {
+          "category": "Field Study",
+          "studies": 6,
+          "percent": 7.3
+        },
+        {
+          "category": "Video / photo / web survey",
+          "studies": 6,
+          "percent": 7.3
+        },
+        {
+          "category": "Multiple methods",
+          "studies": 5,
+          "percent": 6.1
+        },
+        {
+          "category": "VR screen",
+          "studies": 3,
+          "percent": 3.7
+        },
+        {
+          "category": "AR / 360° video VR",
+          "studies": 2,
+          "percent": 2.4
+        }
+      ]
+    },
+    {
+      "name": "Road-user group",
+      "nodes": [
+        {
+          "category": "Pedestrians only",
+          "studies": 74,
+          "percent": 90.2
+        },
+        {
+          "category": "Cyclists only",
+          "studies": 4,
+          "percent": 4.9
+        },
+        {
+          "category": "Pedestrians & cyclists",
+          "studies": 4,
+          "percent": 4.9
+        }
+      ]
+    },
+    {
+      "name": "Autonomous systems",
+      "nodes": [
+        {
+          "category": "Autonomous car",
+          "studies": 74,
+          "percent": 90.2
+        },
+        {
+          "category": "Autonomous shuttle",
+          "studies": 7,
+          "percent": 8.5
+        },
+        {
+          "category": "Delivery vehicle",
+          "studies": 1,
+          "percent": 1.2
+        }
+      ]
+    },
+    {
+      "name": "Scenario classification",
+      "nodes": [
+        {
+          "category": "Unsignalized only",
+          "studies": 55,
+          "percent": 67.1
+        },
+        {
+          "category": "Unclear",
+          "studies": 9,
+          "percent": 11.0
+        },
+        {
+          "category": "Multiple scenario tags",
+          "studies": 7,
+          "percent": 8.5
+        },
+        {
+          "category": "Shared space only",
+          "studies": 5,
+          "percent": 6.1
+        },
+        {
+          "category": "Intersection only",
+          "studies": 5,
+          "percent": 6.1
+        },
+        {
+          "category": "Signalized only",
+          "studies": 1,
+          "percent": 1.2
+        }
+      ]
+    },
+    {
+      "name": "Modeling methods",
+      "nodes": [
+        {
+          "category": "Statistical tests / description",
+          "studies": 34,
+          "percent": 41.5
+        },
+        {
+          "category": "Linear models",
+          "studies": 18,
+          "percent": 22.0
+        },
+        {
+          "category": "Discrete-choice models",
+          "studies": 15,
+          "percent": 18.3
+        },
+        {
+          "category": "Multiple model families",
+          "studies": 6,
+          "percent": 7.3
+        },
+        {
+          "category": "Hybrid models",
+          "studies": 3,
+          "percent": 3.7
+        },
+        {
+          "category": "Deep learning",
+          "studies": 3,
+          "percent": 3.7
+        },
+        {
+          "category": "Psychological models",
+          "studies": 2,
+          "percent": 2.4
+        },
+        {
+          "category": "Causal models",
+          "studies": 1,
+          "percent": 1.2
+        }
+      ]
+    }
+  ],
+  "sankey_links": [
+    {
+      "stage": 0,
+      "source": "Behavior understanding & prediction",
+      "target": "Wizard-of-Oz",
+      "studies": 3,
+      "study_ids": [
+        "currano_vamos_2018",
+        "rodriguez_palmeiro_interaction_2018",
+        "joisten_displaying_2020"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Behavior understanding & prediction",
+      "target": "VR CAVE",
+      "studies": 12,
+      "study_ids": [
+        "woodman_gap_2019",
+        "lee_learning_2022",
+        "andrijanto_application_2022",
+        "tapiro_cell_2016",
+        "tapiro_pedestrian_2020",
+        "tian_explaining_2022",
+        "tian_deceleration_2023",
+        "jiang_action_2016",
+        "jiang_acting_2018",
+        "jiang_joint_2019",
+        "oneal_how_2019",
+        "jiang_crossing_2021"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Behavior understanding & prediction",
+      "target": "VR HMD",
+      "studies": 29,
+      "study_ids": [
+        "de_clercq_external_2019",
+        "mahadevan_av-pedestrian_2019",
+        "chung_effects_2020",
+        "wang_roles_2020",
+        "dietrich_implicit_2020",
+        "colley_effects_2022",
+        "hollander_investigating_2019",
+        "nunez_velasco_studying_2019",
+        "ackermans_effects_2020",
+        "bindschadel_interaction_2021",
+        "chen_comparison_2020",
+        "nunez_velasco_will_2021",
+        "sahin_deviant_2022",
+        "wang_effect_2022",
+        "zou_pedestrian_2023",
+        "figueroa-medina_analysis_2023",
+        "song_pedestrians_2023",
+        "watanabe_analysis_2023",
+        "sobhani_impact_2018",
+        "jayaraman_analysis_2020",
+        "jayaraman_multimodal_2021",
+        "kalatian_decoding_2021",
+        "kim_pedestrian_2020",
+        "kalatian_context-aware_2022",
+        "shipman_novel_2022",
+        "giles_at_2019",
+        "kwon_pedestrians_2022",
+        "lanzer_interaction_2023",
+        "feng_does_2023"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Behavior understanding & prediction",
+      "target": "Field Study",
+      "studies": 6,
+      "study_ids": [
+        "li_-road_2020",
+        "oskina_safety_2023",
+        "beauchamp_study_2022",
+        "gehrke_observed_2023",
+        "madigan_understanding_2019",
+        "de_ceunynck_interact_2022"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Behavior understanding & prediction",
+      "target": "VR screen",
+      "studies": 2,
+      "study_ids": [
+        "razmi_rad_pedestrians_2020",
+        "shen_relations_2015"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Behavior understanding & prediction",
+      "target": "Multiple methods",
+      "studies": 1,
+      "study_ids": [
+        "pekkanen_variable-drift_2022"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Behavior understanding & prediction",
+      "target": "Video / photo / web survey",
+      "studies": 3,
+      "study_ids": [
+        "joisten_communication_2021",
+        "hagenzieker_interactions_2020",
+        "vlakveld_cyclists_2020"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Behavior understanding & prediction",
+      "target": "AR / 360° video VR",
+      "studies": 1,
+      "study_ids": [
+        "nunez_velasco_cyclists_2021"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Data collection methods comparison",
+      "target": "Multiple methods",
+      "studies": 4,
+      "study_ids": [
+        "mallaro_comparison_2017",
+        "pala_analysis_2021",
+        "maruhn_analyzing_2020",
+        "fuest_comparison_2020"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Communication design & behavior evaluation",
+      "target": "Wizard-of-Oz",
+      "studies": 6,
+      "study_ids": [
+        "habibovic_communicating_2018",
+        "moore_case_2019",
+        "dey_distance-dependent_2020",
+        "wang_pedestrian_2021",
+        "faas_self-driving_2021",
+        "bindschadel_using_2023"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Communication design & behavior evaluation",
+      "target": "VR HMD",
+      "studies": 10,
+      "study_ids": [
+        "deb_investigating_2018",
+        "deb_how_2020",
+        "soshiroda_stopping_2021",
+        "furuya_autonomous_2021",
+        "dey_towards_2021",
+        "chang_can_2022",
+        "schmitt_can_2022",
+        "bindschadel_two-step_2022",
+        "bindschadel_active_2022",
+        "hubner_external_2022"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Communication design & behavior evaluation",
+      "target": "VR screen",
+      "studies": 1,
+      "study_ids": [
+        "metayer_improving_2021"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Communication design & behavior evaluation",
+      "target": "Video / photo / web survey",
+      "studies": 3,
+      "study_ids": [
+        "lau_investigating_2021",
+        "wilbrink_scaling_2021",
+        "colley_scalability_2023"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Communication design & behavior evaluation",
+      "target": "AR / 360° video VR",
+      "studies": 1,
+      "study_ids": [
+        "kang_designing_2023"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "Wizard-of-Oz",
+      "target": "Pedestrians only",
+      "studies": 9,
+      "study_ids": [
+        "currano_vamos_2018",
+        "rodriguez_palmeiro_interaction_2018",
+        "joisten_displaying_2020",
+        "habibovic_communicating_2018",
+        "moore_case_2019",
+        "dey_distance-dependent_2020",
+        "wang_pedestrian_2021",
+        "faas_self-driving_2021",
+        "bindschadel_using_2023"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "VR CAVE",
+      "target": "Pedestrians only",
+      "studies": 12,
+      "study_ids": [
+        "woodman_gap_2019",
+        "lee_learning_2022",
+        "andrijanto_application_2022",
+        "tapiro_cell_2016",
+        "tapiro_pedestrian_2020",
+        "tian_explaining_2022",
+        "tian_deceleration_2023",
+        "jiang_action_2016",
+        "jiang_acting_2018",
+        "jiang_joint_2019",
+        "oneal_how_2019",
+        "jiang_crossing_2021"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "VR HMD",
+      "target": "Pedestrians only",
+      "studies": 39,
+      "study_ids": [
+        "de_clercq_external_2019",
+        "mahadevan_av-pedestrian_2019",
+        "chung_effects_2020",
+        "wang_roles_2020",
+        "dietrich_implicit_2020",
+        "colley_effects_2022",
+        "hollander_investigating_2019",
+        "nunez_velasco_studying_2019",
+        "ackermans_effects_2020",
+        "bindschadel_interaction_2021",
+        "chen_comparison_2020",
+        "nunez_velasco_will_2021",
+        "sahin_deviant_2022",
+        "wang_effect_2022",
+        "zou_pedestrian_2023",
+        "figueroa-medina_analysis_2023",
+        "song_pedestrians_2023",
+        "watanabe_analysis_2023",
+        "sobhani_impact_2018",
+        "jayaraman_analysis_2020",
+        "jayaraman_multimodal_2021",
+        "kalatian_decoding_2021",
+        "kim_pedestrian_2020",
+        "kalatian_context-aware_2022",
+        "shipman_novel_2022",
+        "giles_at_2019",
+        "kwon_pedestrians_2022",
+        "lanzer_interaction_2023",
+        "feng_does_2023",
+        "deb_investigating_2018",
+        "deb_how_2020",
+        "soshiroda_stopping_2021",
+        "furuya_autonomous_2021",
+        "dey_towards_2021",
+        "chang_can_2022",
+        "schmitt_can_2022",
+        "bindschadel_two-step_2022",
+        "bindschadel_active_2022",
+        "hubner_external_2022"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "Field Study",
+      "target": "Pedestrians only",
+      "studies": 1,
+      "study_ids": [
+        "li_-road_2020"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "VR screen",
+      "target": "Pedestrians only",
+      "studies": 3,
+      "study_ids": [
+        "razmi_rad_pedestrians_2020",
+        "shen_relations_2015",
+        "metayer_improving_2021"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "Multiple methods",
+      "target": "Pedestrians only",
+      "studies": 5,
+      "study_ids": [
+        "pekkanen_variable-drift_2022",
+        "mallaro_comparison_2017",
+        "pala_analysis_2021",
+        "maruhn_analyzing_2020",
+        "fuest_comparison_2020"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "Video / photo / web survey",
+      "target": "Pedestrians only",
+      "studies": 4,
+      "study_ids": [
+        "joisten_communication_2021",
+        "lau_investigating_2021",
+        "wilbrink_scaling_2021",
+        "colley_scalability_2023"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "Video / photo / web survey",
+      "target": "Cyclists only",
+      "studies": 2,
+      "study_ids": [
+        "hagenzieker_interactions_2020",
+        "vlakveld_cyclists_2020"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "Field Study",
+      "target": "Cyclists only",
+      "studies": 1,
+      "study_ids": [
+        "oskina_safety_2023"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "AR / 360° video VR",
+      "target": "Cyclists only",
+      "studies": 1,
+      "study_ids": [
+        "nunez_velasco_cyclists_2021"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "Field Study",
+      "target": "Pedestrians & cyclists",
+      "studies": 4,
+      "study_ids": [
+        "beauchamp_study_2022",
+        "gehrke_observed_2023",
+        "madigan_understanding_2019",
+        "de_ceunynck_interact_2022"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "AR / 360° video VR",
+      "target": "Pedestrians only",
+      "studies": 1,
+      "study_ids": [
+        "kang_designing_2023"
+      ]
+    },
+    {
+      "stage": 2,
+      "source": "Pedestrians only",
+      "target": "Autonomous car",
+      "studies": 70,
+      "study_ids": [
+        "currano_vamos_2018",
+        "rodriguez_palmeiro_interaction_2018",
+        "woodman_gap_2019",
+        "de_clercq_external_2019",
+        "mahadevan_av-pedestrian_2019",
+        "chung_effects_2020",
+        "wang_roles_2020",
+        "joisten_displaying_2020",
+        "dietrich_implicit_2020",
+        "colley_effects_2022",
+        "lee_learning_2022",
+        "tapiro_cell_2016",
+        "hollander_investigating_2019",
+        "ackermans_effects_2020",
+        "li_-road_2020",
+        "tapiro_pedestrian_2020",
+        "razmi_rad_pedestrians_2020",
+        "bindschadel_interaction_2021",
+        "chen_comparison_2020",
+        "nunez_velasco_will_2021",
+        "sahin_deviant_2022",
+        "wang_effect_2022",
+        "tian_explaining_2022",
+        "tian_deceleration_2023",
+        "zou_pedestrian_2023",
+        "figueroa-medina_analysis_2023",
+        "song_pedestrians_2023",
+        "watanabe_analysis_2023",
+        "sobhani_impact_2018",
+        "jayaraman_analysis_2020",
+        "jayaraman_multimodal_2021",
+        "kalatian_decoding_2021",
+        "kim_pedestrian_2020",
+        "kalatian_context-aware_2022",
+        "shipman_novel_2022",
+        "pekkanen_variable-drift_2022",
+        "giles_at_2019",
+        "shen_relations_2015",
+        "kwon_pedestrians_2022",
+        "jiang_action_2016",
+        "jiang_acting_2018",
+        "jiang_joint_2019",
+        "oneal_how_2019",
+        "joisten_communication_2021",
+        "jiang_crossing_2021",
+        "lanzer_interaction_2023",
+        "feng_does_2023",
+        "mallaro_comparison_2017",
+        "pala_analysis_2021",
+        "maruhn_analyzing_2020",
+        "fuest_comparison_2020",
+        "habibovic_communicating_2018",
+        "deb_investigating_2018",
+        "moore_case_2019",
+        "deb_how_2020",
+        "dey_distance-dependent_2020",
+        "metayer_improving_2021",
+        "wang_pedestrian_2021",
+        "wilbrink_scaling_2021",
+        "furuya_autonomous_2021",
+        "faas_self-driving_2021",
+        "dey_towards_2021",
+        "chang_can_2022",
+        "schmitt_can_2022",
+        "bindschadel_two-step_2022",
+        "bindschadel_active_2022",
+        "hubner_external_2022",
+        "bindschadel_using_2023",
+        "kang_designing_2023",
+        "colley_scalability_2023"
+      ]
+    },
+    {
+      "stage": 2,
+      "source": "Pedestrians only",
+      "target": "Autonomous shuttle",
+      "studies": 4,
+      "study_ids": [
+        "andrijanto_application_2022",
+        "nunez_velasco_studying_2019",
+        "lau_investigating_2021",
+        "soshiroda_stopping_2021"
+      ]
+    },
+    {
+      "stage": 2,
+      "source": "Cyclists only",
+      "target": "Autonomous car",
+      "studies": 4,
+      "study_ids": [
+        "hagenzieker_interactions_2020",
+        "vlakveld_cyclists_2020",
+        "oskina_safety_2023",
+        "nunez_velasco_cyclists_2021"
+      ]
+    },
+    {
+      "stage": 2,
+      "source": "Pedestrians & cyclists",
+      "target": "Autonomous shuttle",
+      "studies": 3,
+      "study_ids": [
+        "beauchamp_study_2022",
+        "madigan_understanding_2019",
+        "de_ceunynck_interact_2022"
+      ]
+    },
+    {
+      "stage": 2,
+      "source": "Pedestrians & cyclists",
+      "target": "Delivery vehicle",
+      "studies": 1,
+      "study_ids": [
+        "gehrke_observed_2023"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Autonomous car",
+      "target": "Shared space only",
+      "studies": 2,
+      "study_ids": [
+        "currano_vamos_2018",
+        "li_-road_2020"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Autonomous car",
+      "target": "Unsignalized only",
+      "studies": 53,
+      "study_ids": [
+        "rodriguez_palmeiro_interaction_2018",
+        "de_clercq_external_2019",
+        "mahadevan_av-pedestrian_2019",
+        "chung_effects_2020",
+        "joisten_displaying_2020",
+        "colley_effects_2022",
+        "lee_learning_2022",
+        "tapiro_cell_2016",
+        "hollander_investigating_2019",
+        "ackermans_effects_2020",
+        "tapiro_pedestrian_2020",
+        "razmi_rad_pedestrians_2020",
+        "bindschadel_interaction_2021",
+        "chen_comparison_2020",
+        "nunez_velasco_will_2021",
+        "sahin_deviant_2022",
+        "wang_effect_2022",
+        "tian_explaining_2022",
+        "tian_deceleration_2023",
+        "figueroa-medina_analysis_2023",
+        "song_pedestrians_2023",
+        "watanabe_analysis_2023",
+        "sobhani_impact_2018",
+        "jayaraman_analysis_2020",
+        "jayaraman_multimodal_2021",
+        "shipman_novel_2022",
+        "pekkanen_variable-drift_2022",
+        "giles_at_2019",
+        "shen_relations_2015",
+        "jiang_action_2016",
+        "jiang_acting_2018",
+        "jiang_joint_2019",
+        "oneal_how_2019",
+        "joisten_communication_2021",
+        "jiang_crossing_2021",
+        "lanzer_interaction_2023",
+        "mallaro_comparison_2017",
+        "pala_analysis_2021",
+        "fuest_comparison_2020",
+        "habibovic_communicating_2018",
+        "wang_pedestrian_2021",
+        "wilbrink_scaling_2021",
+        "furuya_autonomous_2021",
+        "faas_self-driving_2021",
+        "dey_towards_2021",
+        "chang_can_2022",
+        "schmitt_can_2022",
+        "bindschadel_two-step_2022",
+        "bindschadel_active_2022",
+        "hubner_external_2022",
+        "bindschadel_using_2023",
+        "kang_designing_2023",
+        "colley_scalability_2023"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Autonomous car",
+      "target": "Multiple scenario tags",
+      "studies": 6,
+      "study_ids": [
+        "woodman_gap_2019",
+        "wang_roles_2020",
+        "kwon_pedestrians_2022",
+        "feng_does_2023",
+        "maruhn_analyzing_2020",
+        "moore_case_2019"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Autonomous car",
+      "target": "Unclear",
+      "studies": 8,
+      "study_ids": [
+        "dietrich_implicit_2020",
+        "zou_pedestrian_2023",
+        "kalatian_decoding_2021",
+        "kalatian_context-aware_2022",
+        "hagenzieker_interactions_2020",
+        "oskina_safety_2023",
+        "dey_distance-dependent_2020",
+        "metayer_improving_2021"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Autonomous shuttle",
+      "target": "Shared space only",
+      "studies": 2,
+      "study_ids": [
+        "andrijanto_application_2022",
+        "lau_investigating_2021"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Autonomous shuttle",
+      "target": "Unsignalized only",
+      "studies": 2,
+      "study_ids": [
+        "nunez_velasco_studying_2019",
+        "soshiroda_stopping_2021"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Autonomous car",
+      "target": "Signalized only",
+      "studies": 1,
+      "study_ids": [
+        "kim_pedestrian_2020"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Autonomous car",
+      "target": "Intersection only",
+      "studies": 4,
+      "study_ids": [
+        "vlakveld_cyclists_2020",
+        "nunez_velasco_cyclists_2021",
+        "deb_investigating_2018",
+        "deb_how_2020"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Autonomous shuttle",
+      "target": "Intersection only",
+      "studies": 1,
+      "study_ids": [
+        "beauchamp_study_2022"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Delivery vehicle",
+      "target": "Shared space only",
+      "studies": 1,
+      "study_ids": [
+        "gehrke_observed_2023"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Autonomous shuttle",
+      "target": "Unclear",
+      "studies": 1,
+      "study_ids": [
+        "madigan_understanding_2019"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Autonomous shuttle",
+      "target": "Multiple scenario tags",
+      "studies": 1,
+      "study_ids": [
+        "de_ceunynck_interact_2022"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Shared space only",
+      "target": "Statistical tests / description",
+      "studies": 3,
+      "study_ids": [
+        "currano_vamos_2018",
+        "andrijanto_application_2022",
+        "lau_investigating_2021"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unsignalized only",
+      "target": "Statistical tests / description",
+      "studies": 21,
+      "study_ids": [
+        "rodriguez_palmeiro_interaction_2018",
+        "de_clercq_external_2019",
+        "mahadevan_av-pedestrian_2019",
+        "chung_effects_2020",
+        "joisten_displaying_2020",
+        "colley_effects_2022",
+        "lee_learning_2022",
+        "wang_effect_2022",
+        "pala_analysis_2021",
+        "fuest_comparison_2020",
+        "habibovic_communicating_2018",
+        "wang_pedestrian_2021",
+        "wilbrink_scaling_2021",
+        "soshiroda_stopping_2021",
+        "furuya_autonomous_2021",
+        "faas_self-driving_2021",
+        "chang_can_2022",
+        "bindschadel_two-step_2022",
+        "hubner_external_2022",
+        "kang_designing_2023",
+        "colley_scalability_2023"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Multiple scenario tags",
+      "target": "Statistical tests / description",
+      "studies": 4,
+      "study_ids": [
+        "woodman_gap_2019",
+        "wang_roles_2020",
+        "de_ceunynck_interact_2022",
+        "moore_case_2019"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unclear",
+      "target": "Statistical tests / description",
+      "studies": 5,
+      "study_ids": [
+        "dietrich_implicit_2020",
+        "hagenzieker_interactions_2020",
+        "madigan_understanding_2019",
+        "dey_distance-dependent_2020",
+        "metayer_improving_2021"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unsignalized only",
+      "target": "Linear models",
+      "studies": 12,
+      "study_ids": [
+        "tapiro_cell_2016",
+        "hollander_investigating_2019",
+        "ackermans_effects_2020",
+        "tapiro_pedestrian_2020",
+        "razmi_rad_pedestrians_2020",
+        "bindschadel_interaction_2021",
+        "sahin_deviant_2022",
+        "shen_relations_2015",
+        "lanzer_interaction_2023",
+        "schmitt_can_2022",
+        "bindschadel_active_2022",
+        "bindschadel_using_2023"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unsignalized only",
+      "target": "Discrete-choice models",
+      "studies": 12,
+      "study_ids": [
+        "nunez_velasco_studying_2019",
+        "chen_comparison_2020",
+        "tian_explaining_2022",
+        "watanabe_analysis_2023",
+        "sobhani_impact_2018",
+        "jiang_action_2016",
+        "jiang_acting_2018",
+        "jiang_joint_2019",
+        "oneal_how_2019",
+        "joisten_communication_2021",
+        "jiang_crossing_2021",
+        "mallaro_comparison_2017"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Shared space only",
+      "target": "Multiple model families",
+      "studies": 1,
+      "study_ids": [
+        "li_-road_2020"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unsignalized only",
+      "target": "Multiple model families",
+      "studies": 5,
+      "study_ids": [
+        "nunez_velasco_will_2021",
+        "tian_deceleration_2023",
+        "figueroa-medina_analysis_2023",
+        "song_pedestrians_2023",
+        "dey_towards_2021"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unclear",
+      "target": "Linear models",
+      "studies": 2,
+      "study_ids": [
+        "zou_pedestrian_2023",
+        "oskina_safety_2023"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unsignalized only",
+      "target": "Hybrid models",
+      "studies": 2,
+      "study_ids": [
+        "jayaraman_analysis_2020",
+        "jayaraman_multimodal_2021"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unclear",
+      "target": "Deep learning",
+      "studies": 2,
+      "study_ids": [
+        "kalatian_decoding_2021",
+        "kalatian_context-aware_2022"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Signalized only",
+      "target": "Hybrid models",
+      "studies": 1,
+      "study_ids": [
+        "kim_pedestrian_2020"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unsignalized only",
+      "target": "Deep learning",
+      "studies": 1,
+      "study_ids": [
+        "shipman_novel_2022"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unsignalized only",
+      "target": "Psychological models",
+      "studies": 2,
+      "study_ids": [
+        "pekkanen_variable-drift_2022",
+        "giles_at_2019"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Multiple scenario tags",
+      "target": "Causal models",
+      "studies": 1,
+      "study_ids": [
+        "kwon_pedestrians_2022"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Multiple scenario tags",
+      "target": "Linear models",
+      "studies": 1,
+      "study_ids": [
+        "feng_does_2023"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Intersection only",
+      "target": "Linear models",
+      "studies": 3,
+      "study_ids": [
+        "vlakveld_cyclists_2020",
+        "nunez_velasco_cyclists_2021",
+        "beauchamp_study_2022"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Shared space only",
+      "target": "Discrete-choice models",
+      "studies": 1,
+      "study_ids": [
+        "gehrke_observed_2023"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Multiple scenario tags",
+      "target": "Discrete-choice models",
+      "studies": 1,
+      "study_ids": [
+        "maruhn_analyzing_2020"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Intersection only",
+      "target": "Statistical tests / description",
+      "studies": 1,
+      "study_ids": [
+        "deb_investigating_2018"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Intersection only",
+      "target": "Discrete-choice models",
+      "studies": 1,
+      "study_ids": [
+        "deb_how_2020"
+      ]
+    }
+  ],
+  "study_paths": [
+    {
+      "id": "currano_vamos_2018",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Wizard-of-Oz",
+        "Pedestrians only",
+        "Autonomous car",
+        "Shared space only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "rodriguez_palmeiro_interaction_2018",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Wizard-of-Oz",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "woodman_gap_2019",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple scenario tags",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "de_clercq_external_2019",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "mahadevan_av-pedestrian_2019",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "chung_effects_2020",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "wang_roles_2020",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple scenario tags",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "joisten_displaying_2020",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Wizard-of-Oz",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "dietrich_implicit_2020",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unclear",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "colley_effects_2022",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "lee_learning_2022",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "andrijanto_application_2022",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous shuttle",
+        "Shared space only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "tapiro_cell_2016",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "hollander_investigating_2019",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "nunez_velasco_studying_2019",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous shuttle",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "ackermans_effects_2020",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "li_-road_2020",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Field Study",
+        "Pedestrians only",
+        "Autonomous car",
+        "Shared space only",
+        "Multiple model families"
+      ]
+    },
+    {
+      "id": "tapiro_pedestrian_2020",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "razmi_rad_pedestrians_2020",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR screen",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "bindschadel_interaction_2021",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "chen_comparison_2020",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "nunez_velasco_will_2021",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Multiple model families"
+      ]
+    },
+    {
+      "id": "sahin_deviant_2022",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "wang_effect_2022",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "tian_explaining_2022",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "tian_deceleration_2023",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Multiple model families"
+      ]
+    },
+    {
+      "id": "zou_pedestrian_2023",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unclear",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "figueroa-medina_analysis_2023",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Multiple model families"
+      ]
+    },
+    {
+      "id": "song_pedestrians_2023",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Multiple model families"
+      ]
+    },
+    {
+      "id": "watanabe_analysis_2023",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "sobhani_impact_2018",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "jayaraman_analysis_2020",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Hybrid models"
+      ]
+    },
+    {
+      "id": "jayaraman_multimodal_2021",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Hybrid models"
+      ]
+    },
+    {
+      "id": "kalatian_decoding_2021",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unclear",
+        "Deep learning"
+      ]
+    },
+    {
+      "id": "kim_pedestrian_2020",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Signalized only",
+        "Hybrid models"
+      ]
+    },
+    {
+      "id": "kalatian_context-aware_2022",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unclear",
+        "Deep learning"
+      ]
+    },
+    {
+      "id": "shipman_novel_2022",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Deep learning"
+      ]
+    },
+    {
+      "id": "pekkanen_variable-drift_2022",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Multiple methods",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Psychological models"
+      ]
+    },
+    {
+      "id": "giles_at_2019",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Psychological models"
+      ]
+    },
+    {
+      "id": "shen_relations_2015",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR screen",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "kwon_pedestrians_2022",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple scenario tags",
+        "Causal models"
+      ]
+    },
+    {
+      "id": "jiang_action_2016",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "jiang_acting_2018",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "jiang_joint_2019",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "oneal_how_2019",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "joisten_communication_2021",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Video / photo / web survey",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "jiang_crossing_2021",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "lanzer_interaction_2023",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "feng_does_2023",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple scenario tags",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "hagenzieker_interactions_2020",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Video / photo / web survey",
+        "Cyclists only",
+        "Autonomous car",
+        "Unclear",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "vlakveld_cyclists_2020",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Video / photo / web survey",
+        "Cyclists only",
+        "Autonomous car",
+        "Intersection only",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "oskina_safety_2023",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Field Study",
+        "Cyclists only",
+        "Autonomous car",
+        "Unclear",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "nunez_velasco_cyclists_2021",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "AR / 360° video VR",
+        "Cyclists only",
+        "Autonomous car",
+        "Intersection only",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "beauchamp_study_2022",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Field Study",
+        "Pedestrians & cyclists",
+        "Autonomous shuttle",
+        "Intersection only",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "gehrke_observed_2023",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Field Study",
+        "Pedestrians & cyclists",
+        "Delivery vehicle",
+        "Shared space only",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "madigan_understanding_2019",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Field Study",
+        "Pedestrians & cyclists",
+        "Autonomous shuttle",
+        "Unclear",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "de_ceunynck_interact_2022",
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Field Study",
+        "Pedestrians & cyclists",
+        "Autonomous shuttle",
+        "Multiple scenario tags",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "mallaro_comparison_2017",
+      "stages": [
+        "Data collection\nmethods comparison",
+        "Multiple methods",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "pala_analysis_2021",
+      "stages": [
+        "Data collection\nmethods comparison",
+        "Multiple methods",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "maruhn_analyzing_2020",
+      "stages": [
+        "Data collection\nmethods comparison",
+        "Multiple methods",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple scenario tags",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "fuest_comparison_2020",
+      "stages": [
+        "Data collection\nmethods comparison",
+        "Multiple methods",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "habibovic_communicating_2018",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Wizard-of-Oz",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "deb_investigating_2018",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Intersection only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "moore_case_2019",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Wizard-of-Oz",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple scenario tags",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "deb_how_2020",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Intersection only",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "dey_distance-dependent_2020",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Wizard-of-Oz",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unclear",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "metayer_improving_2021",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR screen",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unclear",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "lau_investigating_2021",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Video / photo / web survey",
+        "Pedestrians only",
+        "Autonomous shuttle",
+        "Shared space only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "wang_pedestrian_2021",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Wizard-of-Oz",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "wilbrink_scaling_2021",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Video / photo / web survey",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "soshiroda_stopping_2021",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous shuttle",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "furuya_autonomous_2021",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "faas_self-driving_2021",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Wizard-of-Oz",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "dey_towards_2021",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Multiple model families"
+      ]
+    },
+    {
+      "id": "chang_can_2022",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "schmitt_can_2022",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "bindschadel_two-step_2022",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "bindschadel_active_2022",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "hubner_external_2022",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "bindschadel_using_2023",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Wizard-of-Oz",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "kang_designing_2023",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "AR / 360° video VR",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "colley_scalability_2023",
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Video / photo / web survey",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ]
+    }
+  ]
+}

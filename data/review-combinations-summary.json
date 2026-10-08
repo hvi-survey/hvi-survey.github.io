@@ -1,0 +1,912 @@
+{
+  "source": "data/studies.js",
+  "studies": 82,
+  "color_encoding": "Research focus × exclusive study-method group. Color persists across every dimension.",
+  "path_encoding": "Each ribbon represents an observed full six-dimension combination; its width is the number of studies. Identical colors can split across downstream categories.",
+  "slide_theme": {
+    "blue": "#809BCE",
+    "sky": "#95B8D1",
+    "mint": "#B8E0D2",
+    "pale_mint": "#D6EADF",
+    "rose": "#EAC4D5",
+    "heading": "#37494B"
+  },
+  "color_key": [
+    {
+      "focus": "Behavior understanding & prediction",
+      "method": "VR HMD",
+      "color": "#809BCE",
+      "studies": 29
+    },
+    {
+      "focus": "Behavior understanding & prediction",
+      "method": "VR CAVE",
+      "color": "#EAC4D5",
+      "studies": 12
+    },
+    {
+      "focus": "Behavior understanding & prediction",
+      "method": "VR screen",
+      "color": "#B8E0D2",
+      "studies": 2
+    },
+    {
+      "focus": "Behavior understanding & prediction",
+      "method": "AR / 360° video VR",
+      "color": "#95B8D1",
+      "studies": 1
+    },
+    {
+      "focus": "Behavior understanding & prediction",
+      "method": "Wizard-of-Oz",
+      "color": "#D6EADF",
+      "studies": 3
+    },
+    {
+      "focus": "Behavior understanding & prediction",
+      "method": "Field Study",
+      "color": "#526FA3",
+      "studies": 6
+    },
+    {
+      "focus": "Behavior understanding & prediction",
+      "method": "Video / photo / web survey",
+      "color": "#B17C96",
+      "studies": 3
+    },
+    {
+      "focus": "Behavior understanding & prediction",
+      "method": "Multiple methods",
+      "color": "#629A88",
+      "studies": 1
+    },
+    {
+      "focus": "Communication design & behavior evaluation",
+      "method": "VR HMD",
+      "color": "#597F9D",
+      "studies": 10
+    },
+    {
+      "focus": "Communication design & behavior evaluation",
+      "method": "VR screen",
+      "color": "#99B5A6",
+      "studies": 1
+    },
+    {
+      "focus": "Communication design & behavior evaluation",
+      "method": "AR / 360° video VR",
+      "color": "#3D557F",
+      "studies": 1
+    },
+    {
+      "focus": "Communication design & behavior evaluation",
+      "method": "Wizard-of-Oz",
+      "color": "#8E5B75",
+      "studies": 6
+    },
+    {
+      "focus": "Communication design & behavior evaluation",
+      "method": "Video / photo / web survey",
+      "color": "#427261",
+      "studies": 3
+    },
+    {
+      "focus": "Data collection methods comparison",
+      "method": "Multiple methods",
+      "color": "#719CAD",
+      "studies": 4
+    }
+  ],
+  "full_paths": [
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ],
+      "studies": 5,
+      "study_ids": [
+        "de_clercq_external_2019",
+        "mahadevan_av-pedestrian_2019",
+        "chung_effects_2020",
+        "colley_effects_2022",
+        "wang_effect_2022"
+      ],
+      "color": "#809BCE"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ],
+      "studies": 5,
+      "study_ids": [
+        "hollander_investigating_2019",
+        "ackermans_effects_2020",
+        "bindschadel_interaction_2021",
+        "sahin_deviant_2022",
+        "lanzer_interaction_2023"
+      ],
+      "color": "#809BCE"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ],
+      "studies": 3,
+      "study_ids": [
+        "chen_comparison_2020",
+        "watanabe_analysis_2023",
+        "sobhani_impact_2018"
+      ],
+      "color": "#809BCE"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Multiple model families"
+      ],
+      "studies": 3,
+      "study_ids": [
+        "nunez_velasco_will_2021",
+        "figueroa-medina_analysis_2023",
+        "song_pedestrians_2023"
+      ],
+      "color": "#809BCE"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Deep learning"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "shipman_novel_2022"
+      ],
+      "color": "#809BCE"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Hybrid models"
+      ],
+      "studies": 2,
+      "study_ids": [
+        "jayaraman_analysis_2020",
+        "jayaraman_multimodal_2021"
+      ],
+      "color": "#809BCE"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Psychological models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "giles_at_2019"
+      ],
+      "color": "#809BCE"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unclear",
+        "Statistical tests / description"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "dietrich_implicit_2020"
+      ],
+      "color": "#809BCE"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unclear",
+        "Linear models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "zou_pedestrian_2023"
+      ],
+      "color": "#809BCE"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unclear",
+        "Deep learning"
+      ],
+      "studies": 2,
+      "study_ids": [
+        "kalatian_decoding_2021",
+        "kalatian_context-aware_2022"
+      ],
+      "color": "#809BCE"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple scenario tags",
+        "Statistical tests / description"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "wang_roles_2020"
+      ],
+      "color": "#809BCE"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple scenario tags",
+        "Linear models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "feng_does_2023"
+      ],
+      "color": "#809BCE"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple scenario tags",
+        "Causal models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "kwon_pedestrians_2022"
+      ],
+      "color": "#809BCE"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Signalized only",
+        "Hybrid models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "kim_pedestrian_2020"
+      ],
+      "color": "#809BCE"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous shuttle",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "nunez_velasco_studying_2019"
+      ],
+      "color": "#809BCE"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "lee_learning_2022"
+      ],
+      "color": "#EAC4D5"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ],
+      "studies": 2,
+      "study_ids": [
+        "tapiro_cell_2016",
+        "tapiro_pedestrian_2020"
+      ],
+      "color": "#EAC4D5"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ],
+      "studies": 6,
+      "study_ids": [
+        "tian_explaining_2022",
+        "jiang_action_2016",
+        "jiang_acting_2018",
+        "jiang_joint_2019",
+        "oneal_how_2019",
+        "jiang_crossing_2021"
+      ],
+      "color": "#EAC4D5"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Multiple model families"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "tian_deceleration_2023"
+      ],
+      "color": "#EAC4D5"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple scenario tags",
+        "Statistical tests / description"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "woodman_gap_2019"
+      ],
+      "color": "#EAC4D5"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR CAVE",
+        "Pedestrians only",
+        "Autonomous shuttle",
+        "Shared space only",
+        "Statistical tests / description"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "andrijanto_application_2022"
+      ],
+      "color": "#EAC4D5"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "VR screen",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ],
+      "studies": 2,
+      "study_ids": [
+        "razmi_rad_pedestrians_2020",
+        "shen_relations_2015"
+      ],
+      "color": "#B8E0D2"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "AR / 360° video VR",
+        "Cyclists only",
+        "Autonomous car",
+        "Intersection only",
+        "Linear models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "nunez_velasco_cyclists_2021"
+      ],
+      "color": "#95B8D1"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Wizard-of-Oz",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ],
+      "studies": 2,
+      "study_ids": [
+        "rodriguez_palmeiro_interaction_2018",
+        "joisten_displaying_2020"
+      ],
+      "color": "#D6EADF"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Wizard-of-Oz",
+        "Pedestrians only",
+        "Autonomous car",
+        "Shared space only",
+        "Statistical tests / description"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "currano_vamos_2018"
+      ],
+      "color": "#D6EADF"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Field Study",
+        "Pedestrians only",
+        "Autonomous car",
+        "Shared space only",
+        "Multiple model families"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "li_-road_2020"
+      ],
+      "color": "#526FA3"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Field Study",
+        "Cyclists only",
+        "Autonomous car",
+        "Unclear",
+        "Linear models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "oskina_safety_2023"
+      ],
+      "color": "#526FA3"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Field Study",
+        "Pedestrians & cyclists",
+        "Autonomous shuttle",
+        "Unclear",
+        "Statistical tests / description"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "madigan_understanding_2019"
+      ],
+      "color": "#526FA3"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Field Study",
+        "Pedestrians & cyclists",
+        "Autonomous shuttle",
+        "Multiple scenario tags",
+        "Statistical tests / description"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "de_ceunynck_interact_2022"
+      ],
+      "color": "#526FA3"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Field Study",
+        "Pedestrians & cyclists",
+        "Autonomous shuttle",
+        "Intersection only",
+        "Linear models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "beauchamp_study_2022"
+      ],
+      "color": "#526FA3"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Field Study",
+        "Pedestrians & cyclists",
+        "Delivery vehicle",
+        "Shared space only",
+        "Discrete-choice models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "gehrke_observed_2023"
+      ],
+      "color": "#526FA3"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Video / photo / web survey",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "joisten_communication_2021"
+      ],
+      "color": "#B17C96"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Video / photo / web survey",
+        "Cyclists only",
+        "Autonomous car",
+        "Unclear",
+        "Statistical tests / description"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "hagenzieker_interactions_2020"
+      ],
+      "color": "#B17C96"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Video / photo / web survey",
+        "Cyclists only",
+        "Autonomous car",
+        "Intersection only",
+        "Linear models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "vlakveld_cyclists_2020"
+      ],
+      "color": "#B17C96"
+    },
+    {
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Multiple methods",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Psychological models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "pekkanen_variable-drift_2022"
+      ],
+      "color": "#629A88"
+    },
+    {
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ],
+      "studies": 4,
+      "study_ids": [
+        "furuya_autonomous_2021",
+        "chang_can_2022",
+        "bindschadel_two-step_2022",
+        "hubner_external_2022"
+      ],
+      "color": "#597F9D"
+    },
+    {
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ],
+      "studies": 2,
+      "study_ids": [
+        "schmitt_can_2022",
+        "bindschadel_active_2022"
+      ],
+      "color": "#597F9D"
+    },
+    {
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Multiple model families"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "dey_towards_2021"
+      ],
+      "color": "#597F9D"
+    },
+    {
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Intersection only",
+        "Statistical tests / description"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "deb_investigating_2018"
+      ],
+      "color": "#597F9D"
+    },
+    {
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous car",
+        "Intersection only",
+        "Discrete-choice models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "deb_how_2020"
+      ],
+      "color": "#597F9D"
+    },
+    {
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR HMD",
+        "Pedestrians only",
+        "Autonomous shuttle",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "soshiroda_stopping_2021"
+      ],
+      "color": "#597F9D"
+    },
+    {
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "VR screen",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unclear",
+        "Statistical tests / description"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "metayer_improving_2021"
+      ],
+      "color": "#99B5A6"
+    },
+    {
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "AR / 360° video VR",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "kang_designing_2023"
+      ],
+      "color": "#3D557F"
+    },
+    {
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Wizard-of-Oz",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ],
+      "studies": 3,
+      "study_ids": [
+        "habibovic_communicating_2018",
+        "wang_pedestrian_2021",
+        "faas_self-driving_2021"
+      ],
+      "color": "#8E5B75"
+    },
+    {
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Wizard-of-Oz",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Linear models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "bindschadel_using_2023"
+      ],
+      "color": "#8E5B75"
+    },
+    {
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Wizard-of-Oz",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unclear",
+        "Statistical tests / description"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "dey_distance-dependent_2020"
+      ],
+      "color": "#8E5B75"
+    },
+    {
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Wizard-of-Oz",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple scenario tags",
+        "Statistical tests / description"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "moore_case_2019"
+      ],
+      "color": "#8E5B75"
+    },
+    {
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Video / photo / web survey",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ],
+      "studies": 2,
+      "study_ids": [
+        "wilbrink_scaling_2021",
+        "colley_scalability_2023"
+      ],
+      "color": "#427261"
+    },
+    {
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Video / photo / web survey",
+        "Pedestrians only",
+        "Autonomous shuttle",
+        "Shared space only",
+        "Statistical tests / description"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "lau_investigating_2021"
+      ],
+      "color": "#427261"
+    },
+    {
+      "stages": [
+        "Data collection\nmethods comparison",
+        "Multiple methods",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Statistical tests / description"
+      ],
+      "studies": 2,
+      "study_ids": [
+        "pala_analysis_2021",
+        "fuest_comparison_2020"
+      ],
+      "color": "#719CAD"
+    },
+    {
+      "stages": [
+        "Data collection\nmethods comparison",
+        "Multiple methods",
+        "Pedestrians only",
+        "Autonomous car",
+        "Unsignalized only",
+        "Discrete-choice models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "mallaro_comparison_2017"
+      ],
+      "color": "#719CAD"
+    },
+    {
+      "stages": [
+        "Data collection\nmethods comparison",
+        "Multiple methods",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple scenario tags",
+        "Discrete-choice models"
+      ],
+      "studies": 1,
+      "study_ids": [
+        "maruhn_analyzing_2020"
+      ],
+      "color": "#719CAD"
+    }
+  ]
+}

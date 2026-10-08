@@ -1,0 +1,2700 @@
+{
+  "source": "data/studies.js",
+  "unique_studies": 82,
+  "counting": "Study-level focal actor configurations, including explicitly described CG actors. Multiple setups tested means count configurations differ within a study. No inference of simultaneous human participation from plural words or road-user types.",
+  "setup_counts": {
+    "1 road user × 1 vehicle": 61,
+    "Multiple road users × multiple vehicles": 1,
+    "Multiple setups tested": 15,
+    "1 road user × multiple vehicles": 3,
+    "Unclear / not reported": 1,
+    "Multiple road users × 1 vehicle": 1
+  },
+  "stages": [
+    {
+      "name": "Research focus",
+      "counts": {
+        "Behavior understanding\n& prediction": 57,
+        "Data collection\nmethods comparison": 4,
+        "Communication design\n& behavior evaluation": 21
+      }
+    },
+    {
+      "name": "Road user type",
+      "counts": {
+        "Pedestrians only": 74,
+        "Cyclists only": 4,
+        "Pedestrians & cyclists": 4
+      }
+    },
+    {
+      "name": "AV type",
+      "counts": {
+        "Autonomous car": 74,
+        "Autonomous shuttle": 7,
+        "Delivery vehicle": 1
+      }
+    },
+    {
+      "name": "Interaction setup",
+      "counts": {
+        "1 road user × 1 vehicle": 61,
+        "Multiple road users × multiple vehicles": 1,
+        "Multiple setups tested": 15,
+        "1 road user × multiple vehicles": 3,
+        "Unclear / not reported": 1,
+        "Multiple road users × 1 vehicle": 1
+      }
+    },
+    {
+      "name": "Scenario",
+      "counts": {
+        "Shared space only": 5,
+        "Unsignalized only": 55,
+        "Multiple scenario tags": 7,
+        "Unclear": 9,
+        "Signalized only": 1,
+        "Intersection only": 5
+      }
+    },
+    {
+      "name": "Study method",
+      "counts": {
+        "Wizard-of-Oz": 9,
+        "VR CAVE": 12,
+        "VR HMD": 39,
+        "Field Study": 6,
+        "VR screen": 3,
+        "Multiple methods": 5,
+        "Video / photo / web survey": 6,
+        "AR / 360° video VR": 2
+      }
+    },
+    {
+      "name": "Modeling approach",
+      "counts": {
+        "Statistical tests / description": 34,
+        "Linear models": 18,
+        "Discrete-choice models": 15,
+        "Multiple model families": 6,
+        "Hybrid models": 3,
+        "Deep learning": 3,
+        "Psychological models": 2,
+        "Causal models": 1
+      }
+    }
+  ],
+  "links": [
+    {
+      "stage": 0,
+      "source": "Behavior understanding\n& prediction",
+      "target": "Pedestrians only",
+      "studies": 49,
+      "study_ids": [
+        "currano_vamos_2018",
+        "rodriguez_palmeiro_interaction_2018",
+        "woodman_gap_2019",
+        "de_clercq_external_2019",
+        "mahadevan_av-pedestrian_2019",
+        "chung_effects_2020",
+        "wang_roles_2020",
+        "joisten_displaying_2020",
+        "dietrich_implicit_2020",
+        "colley_effects_2022",
+        "lee_learning_2022",
+        "andrijanto_application_2022",
+        "tapiro_cell_2016",
+        "hollander_investigating_2019",
+        "nunez_velasco_studying_2019",
+        "ackermans_effects_2020",
+        "li_-road_2020",
+        "tapiro_pedestrian_2020",
+        "razmi_rad_pedestrians_2020",
+        "bindschadel_interaction_2021",
+        "chen_comparison_2020",
+        "nunez_velasco_will_2021",
+        "sahin_deviant_2022",
+        "wang_effect_2022",
+        "tian_explaining_2022",
+        "tian_deceleration_2023",
+        "zou_pedestrian_2023",
+        "figueroa-medina_analysis_2023",
+        "song_pedestrians_2023",
+        "watanabe_analysis_2023",
+        "sobhani_impact_2018",
+        "jayaraman_analysis_2020",
+        "jayaraman_multimodal_2021",
+        "kalatian_decoding_2021",
+        "kim_pedestrian_2020",
+        "kalatian_context-aware_2022",
+        "shipman_novel_2022",
+        "pekkanen_variable-drift_2022",
+        "giles_at_2019",
+        "shen_relations_2015",
+        "kwon_pedestrians_2022",
+        "jiang_action_2016",
+        "jiang_acting_2018",
+        "jiang_joint_2019",
+        "oneal_how_2019",
+        "joisten_communication_2021",
+        "jiang_crossing_2021",
+        "lanzer_interaction_2023",
+        "feng_does_2023"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Behavior understanding\n& prediction",
+      "target": "Cyclists only",
+      "studies": 4,
+      "study_ids": [
+        "hagenzieker_interactions_2020",
+        "vlakveld_cyclists_2020",
+        "oskina_safety_2023",
+        "nunez_velasco_cyclists_2021"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Behavior understanding\n& prediction",
+      "target": "Pedestrians & cyclists",
+      "studies": 4,
+      "study_ids": [
+        "beauchamp_study_2022",
+        "gehrke_observed_2023",
+        "madigan_understanding_2019",
+        "de_ceunynck_interact_2022"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Data collection\nmethods comparison",
+      "target": "Pedestrians only",
+      "studies": 4,
+      "study_ids": [
+        "mallaro_comparison_2017",
+        "pala_analysis_2021",
+        "maruhn_analyzing_2020",
+        "fuest_comparison_2020"
+      ]
+    },
+    {
+      "stage": 0,
+      "source": "Communication design\n& behavior evaluation",
+      "target": "Pedestrians only",
+      "studies": 21,
+      "study_ids": [
+        "habibovic_communicating_2018",
+        "deb_investigating_2018",
+        "moore_case_2019",
+        "deb_how_2020",
+        "dey_distance-dependent_2020",
+        "metayer_improving_2021",
+        "lau_investigating_2021",
+        "wang_pedestrian_2021",
+        "wilbrink_scaling_2021",
+        "soshiroda_stopping_2021",
+        "furuya_autonomous_2021",
+        "faas_self-driving_2021",
+        "dey_towards_2021",
+        "chang_can_2022",
+        "schmitt_can_2022",
+        "bindschadel_two-step_2022",
+        "bindschadel_active_2022",
+        "hubner_external_2022",
+        "bindschadel_using_2023",
+        "kang_designing_2023",
+        "colley_scalability_2023"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "Pedestrians only",
+      "target": "Autonomous car",
+      "studies": 70,
+      "study_ids": [
+        "currano_vamos_2018",
+        "rodriguez_palmeiro_interaction_2018",
+        "woodman_gap_2019",
+        "de_clercq_external_2019",
+        "mahadevan_av-pedestrian_2019",
+        "chung_effects_2020",
+        "wang_roles_2020",
+        "joisten_displaying_2020",
+        "dietrich_implicit_2020",
+        "colley_effects_2022",
+        "lee_learning_2022",
+        "tapiro_cell_2016",
+        "hollander_investigating_2019",
+        "ackermans_effects_2020",
+        "li_-road_2020",
+        "tapiro_pedestrian_2020",
+        "razmi_rad_pedestrians_2020",
+        "bindschadel_interaction_2021",
+        "chen_comparison_2020",
+        "nunez_velasco_will_2021",
+        "sahin_deviant_2022",
+        "wang_effect_2022",
+        "tian_explaining_2022",
+        "tian_deceleration_2023",
+        "zou_pedestrian_2023",
+        "figueroa-medina_analysis_2023",
+        "song_pedestrians_2023",
+        "watanabe_analysis_2023",
+        "sobhani_impact_2018",
+        "jayaraman_analysis_2020",
+        "jayaraman_multimodal_2021",
+        "kalatian_decoding_2021",
+        "kim_pedestrian_2020",
+        "kalatian_context-aware_2022",
+        "shipman_novel_2022",
+        "pekkanen_variable-drift_2022",
+        "giles_at_2019",
+        "shen_relations_2015",
+        "kwon_pedestrians_2022",
+        "jiang_action_2016",
+        "jiang_acting_2018",
+        "jiang_joint_2019",
+        "oneal_how_2019",
+        "joisten_communication_2021",
+        "jiang_crossing_2021",
+        "lanzer_interaction_2023",
+        "feng_does_2023",
+        "mallaro_comparison_2017",
+        "pala_analysis_2021",
+        "maruhn_analyzing_2020",
+        "fuest_comparison_2020",
+        "habibovic_communicating_2018",
+        "deb_investigating_2018",
+        "moore_case_2019",
+        "deb_how_2020",
+        "dey_distance-dependent_2020",
+        "metayer_improving_2021",
+        "wang_pedestrian_2021",
+        "wilbrink_scaling_2021",
+        "furuya_autonomous_2021",
+        "faas_self-driving_2021",
+        "dey_towards_2021",
+        "chang_can_2022",
+        "schmitt_can_2022",
+        "bindschadel_two-step_2022",
+        "bindschadel_active_2022",
+        "hubner_external_2022",
+        "bindschadel_using_2023",
+        "kang_designing_2023",
+        "colley_scalability_2023"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "Pedestrians only",
+      "target": "Autonomous shuttle",
+      "studies": 4,
+      "study_ids": [
+        "andrijanto_application_2022",
+        "nunez_velasco_studying_2019",
+        "lau_investigating_2021",
+        "soshiroda_stopping_2021"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "Cyclists only",
+      "target": "Autonomous car",
+      "studies": 4,
+      "study_ids": [
+        "hagenzieker_interactions_2020",
+        "vlakveld_cyclists_2020",
+        "oskina_safety_2023",
+        "nunez_velasco_cyclists_2021"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "Pedestrians & cyclists",
+      "target": "Autonomous shuttle",
+      "studies": 3,
+      "study_ids": [
+        "beauchamp_study_2022",
+        "madigan_understanding_2019",
+        "de_ceunynck_interact_2022"
+      ]
+    },
+    {
+      "stage": 1,
+      "source": "Pedestrians & cyclists",
+      "target": "Delivery vehicle",
+      "studies": 1,
+      "study_ids": [
+        "gehrke_observed_2023"
+      ]
+    },
+    {
+      "stage": 2,
+      "source": "Autonomous car",
+      "target": "1 road user × 1 vehicle",
+      "studies": 54,
+      "study_ids": [
+        "currano_vamos_2018",
+        "rodriguez_palmeiro_interaction_2018",
+        "woodman_gap_2019",
+        "de_clercq_external_2019",
+        "chung_effects_2020",
+        "wang_roles_2020",
+        "joisten_displaying_2020",
+        "dietrich_implicit_2020",
+        "colley_effects_2022",
+        "lee_learning_2022",
+        "tapiro_cell_2016",
+        "hollander_investigating_2019",
+        "ackermans_effects_2020",
+        "razmi_rad_pedestrians_2020",
+        "bindschadel_interaction_2021",
+        "chen_comparison_2020",
+        "nunez_velasco_will_2021",
+        "sahin_deviant_2022",
+        "tian_explaining_2022",
+        "tian_deceleration_2023",
+        "song_pedestrians_2023",
+        "sobhani_impact_2018",
+        "jayaraman_analysis_2020",
+        "jayaraman_multimodal_2021",
+        "kim_pedestrian_2020",
+        "kalatian_context-aware_2022",
+        "shipman_novel_2022",
+        "pekkanen_variable-drift_2022",
+        "giles_at_2019",
+        "shen_relations_2015",
+        "kwon_pedestrians_2022",
+        "hagenzieker_interactions_2020",
+        "vlakveld_cyclists_2020",
+        "oskina_safety_2023",
+        "nunez_velasco_cyclists_2021",
+        "mallaro_comparison_2017",
+        "pala_analysis_2021",
+        "maruhn_analyzing_2020",
+        "fuest_comparison_2020",
+        "habibovic_communicating_2018",
+        "deb_investigating_2018",
+        "moore_case_2019",
+        "deb_how_2020",
+        "dey_distance-dependent_2020",
+        "metayer_improving_2021",
+        "wang_pedestrian_2021",
+        "furuya_autonomous_2021",
+        "faas_self-driving_2021",
+        "chang_can_2022",
+        "schmitt_can_2022",
+        "bindschadel_two-step_2022",
+        "bindschadel_active_2022",
+        "bindschadel_using_2023",
+        "kang_designing_2023"
+      ]
+    },
+    {
+      "stage": 2,
+      "source": "Autonomous car",
+      "target": "Multiple road users × multiple vehicles",
+      "studies": 1,
+      "study_ids": [
+        "mahadevan_av-pedestrian_2019"
+      ]
+    },
+    {
+      "stage": 2,
+      "source": "Autonomous shuttle",
+      "target": "1 road user × 1 vehicle",
+      "studies": 6,
+      "study_ids": [
+        "andrijanto_application_2022",
+        "nunez_velasco_studying_2019",
+        "beauchamp_study_2022",
+        "madigan_understanding_2019",
+        "lau_investigating_2021",
+        "soshiroda_stopping_2021"
+      ]
+    },
+    {
+      "stage": 2,
+      "source": "Autonomous car",
+      "target": "Multiple setups tested",
+      "studies": 15,
+      "study_ids": [
+        "li_-road_2020",
+        "zou_pedestrian_2023",
+        "figueroa-medina_analysis_2023",
+        "kalatian_decoding_2021",
+        "jiang_action_2016",
+        "jiang_acting_2018",
+        "jiang_joint_2019",
+        "oneal_how_2019",
+        "joisten_communication_2021",
+        "jiang_crossing_2021",
+        "lanzer_interaction_2023",
+        "feng_does_2023",
+        "wilbrink_scaling_2021",
+        "hubner_external_2022",
+        "colley_scalability_2023"
+      ]
+    },
+    {
+      "stage": 2,
+      "source": "Autonomous car",
+      "target": "1 road user × multiple vehicles",
+      "studies": 3,
+      "study_ids": [
+        "tapiro_pedestrian_2020",
+        "wang_effect_2022",
+        "watanabe_analysis_2023"
+      ]
+    },
+    {
+      "stage": 2,
+      "source": "Delivery vehicle",
+      "target": "1 road user × 1 vehicle",
+      "studies": 1,
+      "study_ids": [
+        "gehrke_observed_2023"
+      ]
+    },
+    {
+      "stage": 2,
+      "source": "Autonomous shuttle",
+      "target": "Unclear / not reported",
+      "studies": 1,
+      "study_ids": [
+        "de_ceunynck_interact_2022"
+      ]
+    },
+    {
+      "stage": 2,
+      "source": "Autonomous car",
+      "target": "Multiple road users × 1 vehicle",
+      "studies": 1,
+      "study_ids": [
+        "dey_towards_2021"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "1 road user × 1 vehicle",
+      "target": "Shared space only",
+      "studies": 4,
+      "study_ids": [
+        "currano_vamos_2018",
+        "andrijanto_application_2022",
+        "gehrke_observed_2023",
+        "lau_investigating_2021"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "1 road user × 1 vehicle",
+      "target": "Unsignalized only",
+      "studies": 39,
+      "study_ids": [
+        "rodriguez_palmeiro_interaction_2018",
+        "de_clercq_external_2019",
+        "chung_effects_2020",
+        "joisten_displaying_2020",
+        "colley_effects_2022",
+        "lee_learning_2022",
+        "tapiro_cell_2016",
+        "hollander_investigating_2019",
+        "nunez_velasco_studying_2019",
+        "ackermans_effects_2020",
+        "razmi_rad_pedestrians_2020",
+        "bindschadel_interaction_2021",
+        "chen_comparison_2020",
+        "nunez_velasco_will_2021",
+        "sahin_deviant_2022",
+        "tian_explaining_2022",
+        "tian_deceleration_2023",
+        "song_pedestrians_2023",
+        "sobhani_impact_2018",
+        "jayaraman_analysis_2020",
+        "jayaraman_multimodal_2021",
+        "shipman_novel_2022",
+        "pekkanen_variable-drift_2022",
+        "giles_at_2019",
+        "shen_relations_2015",
+        "mallaro_comparison_2017",
+        "pala_analysis_2021",
+        "fuest_comparison_2020",
+        "habibovic_communicating_2018",
+        "wang_pedestrian_2021",
+        "soshiroda_stopping_2021",
+        "furuya_autonomous_2021",
+        "faas_self-driving_2021",
+        "chang_can_2022",
+        "schmitt_can_2022",
+        "bindschadel_two-step_2022",
+        "bindschadel_active_2022",
+        "bindschadel_using_2023",
+        "kang_designing_2023"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "1 road user × 1 vehicle",
+      "target": "Multiple scenario tags",
+      "studies": 5,
+      "study_ids": [
+        "woodman_gap_2019",
+        "wang_roles_2020",
+        "kwon_pedestrians_2022",
+        "maruhn_analyzing_2020",
+        "moore_case_2019"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Multiple road users × multiple vehicles",
+      "target": "Unsignalized only",
+      "studies": 1,
+      "study_ids": [
+        "mahadevan_av-pedestrian_2019"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "1 road user × 1 vehicle",
+      "target": "Unclear",
+      "studies": 7,
+      "study_ids": [
+        "dietrich_implicit_2020",
+        "kalatian_context-aware_2022",
+        "hagenzieker_interactions_2020",
+        "oskina_safety_2023",
+        "madigan_understanding_2019",
+        "dey_distance-dependent_2020",
+        "metayer_improving_2021"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Multiple setups tested",
+      "target": "Shared space only",
+      "studies": 1,
+      "study_ids": [
+        "li_-road_2020"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "1 road user × multiple vehicles",
+      "target": "Unsignalized only",
+      "studies": 3,
+      "study_ids": [
+        "tapiro_pedestrian_2020",
+        "wang_effect_2022",
+        "watanabe_analysis_2023"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Multiple setups tested",
+      "target": "Unclear",
+      "studies": 2,
+      "study_ids": [
+        "zou_pedestrian_2023",
+        "kalatian_decoding_2021"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Multiple setups tested",
+      "target": "Unsignalized only",
+      "studies": 11,
+      "study_ids": [
+        "figueroa-medina_analysis_2023",
+        "jiang_action_2016",
+        "jiang_acting_2018",
+        "jiang_joint_2019",
+        "oneal_how_2019",
+        "joisten_communication_2021",
+        "jiang_crossing_2021",
+        "lanzer_interaction_2023",
+        "wilbrink_scaling_2021",
+        "hubner_external_2022",
+        "colley_scalability_2023"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "1 road user × 1 vehicle",
+      "target": "Signalized only",
+      "studies": 1,
+      "study_ids": [
+        "kim_pedestrian_2020"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Multiple setups tested",
+      "target": "Multiple scenario tags",
+      "studies": 1,
+      "study_ids": [
+        "feng_does_2023"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "1 road user × 1 vehicle",
+      "target": "Intersection only",
+      "studies": 5,
+      "study_ids": [
+        "vlakveld_cyclists_2020",
+        "nunez_velasco_cyclists_2021",
+        "beauchamp_study_2022",
+        "deb_investigating_2018",
+        "deb_how_2020"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Unclear / not reported",
+      "target": "Multiple scenario tags",
+      "studies": 1,
+      "study_ids": [
+        "de_ceunynck_interact_2022"
+      ]
+    },
+    {
+      "stage": 3,
+      "source": "Multiple road users × 1 vehicle",
+      "target": "Unsignalized only",
+      "studies": 1,
+      "study_ids": [
+        "dey_towards_2021"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Shared space only",
+      "target": "Wizard-of-Oz",
+      "studies": 1,
+      "study_ids": [
+        "currano_vamos_2018"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unsignalized only",
+      "target": "Wizard-of-Oz",
+      "studies": 6,
+      "study_ids": [
+        "rodriguez_palmeiro_interaction_2018",
+        "joisten_displaying_2020",
+        "habibovic_communicating_2018",
+        "wang_pedestrian_2021",
+        "faas_self-driving_2021",
+        "bindschadel_using_2023"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Multiple scenario tags",
+      "target": "VR CAVE",
+      "studies": 1,
+      "study_ids": [
+        "woodman_gap_2019"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unsignalized only",
+      "target": "VR HMD",
+      "studies": 29,
+      "study_ids": [
+        "de_clercq_external_2019",
+        "mahadevan_av-pedestrian_2019",
+        "chung_effects_2020",
+        "colley_effects_2022",
+        "hollander_investigating_2019",
+        "nunez_velasco_studying_2019",
+        "ackermans_effects_2020",
+        "bindschadel_interaction_2021",
+        "chen_comparison_2020",
+        "nunez_velasco_will_2021",
+        "sahin_deviant_2022",
+        "wang_effect_2022",
+        "figueroa-medina_analysis_2023",
+        "song_pedestrians_2023",
+        "watanabe_analysis_2023",
+        "sobhani_impact_2018",
+        "jayaraman_analysis_2020",
+        "jayaraman_multimodal_2021",
+        "shipman_novel_2022",
+        "giles_at_2019",
+        "lanzer_interaction_2023",
+        "soshiroda_stopping_2021",
+        "furuya_autonomous_2021",
+        "dey_towards_2021",
+        "chang_can_2022",
+        "schmitt_can_2022",
+        "bindschadel_two-step_2022",
+        "bindschadel_active_2022",
+        "hubner_external_2022"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Multiple scenario tags",
+      "target": "VR HMD",
+      "studies": 3,
+      "study_ids": [
+        "wang_roles_2020",
+        "kwon_pedestrians_2022",
+        "feng_does_2023"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unclear",
+      "target": "VR HMD",
+      "studies": 4,
+      "study_ids": [
+        "dietrich_implicit_2020",
+        "zou_pedestrian_2023",
+        "kalatian_decoding_2021",
+        "kalatian_context-aware_2022"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unsignalized only",
+      "target": "VR CAVE",
+      "studies": 10,
+      "study_ids": [
+        "lee_learning_2022",
+        "tapiro_cell_2016",
+        "tapiro_pedestrian_2020",
+        "tian_explaining_2022",
+        "tian_deceleration_2023",
+        "jiang_action_2016",
+        "jiang_acting_2018",
+        "jiang_joint_2019",
+        "oneal_how_2019",
+        "jiang_crossing_2021"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Shared space only",
+      "target": "VR CAVE",
+      "studies": 1,
+      "study_ids": [
+        "andrijanto_application_2022"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Shared space only",
+      "target": "Field Study",
+      "studies": 2,
+      "study_ids": [
+        "li_-road_2020",
+        "gehrke_observed_2023"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unsignalized only",
+      "target": "VR screen",
+      "studies": 2,
+      "study_ids": [
+        "razmi_rad_pedestrians_2020",
+        "shen_relations_2015"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Signalized only",
+      "target": "VR HMD",
+      "studies": 1,
+      "study_ids": [
+        "kim_pedestrian_2020"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unsignalized only",
+      "target": "Multiple methods",
+      "studies": 4,
+      "study_ids": [
+        "pekkanen_variable-drift_2022",
+        "mallaro_comparison_2017",
+        "pala_analysis_2021",
+        "fuest_comparison_2020"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unsignalized only",
+      "target": "Video / photo / web survey",
+      "studies": 3,
+      "study_ids": [
+        "joisten_communication_2021",
+        "wilbrink_scaling_2021",
+        "colley_scalability_2023"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unclear",
+      "target": "Video / photo / web survey",
+      "studies": 1,
+      "study_ids": [
+        "hagenzieker_interactions_2020"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Intersection only",
+      "target": "Video / photo / web survey",
+      "studies": 1,
+      "study_ids": [
+        "vlakveld_cyclists_2020"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unclear",
+      "target": "Field Study",
+      "studies": 2,
+      "study_ids": [
+        "oskina_safety_2023",
+        "madigan_understanding_2019"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Intersection only",
+      "target": "AR / 360° video VR",
+      "studies": 1,
+      "study_ids": [
+        "nunez_velasco_cyclists_2021"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Intersection only",
+      "target": "Field Study",
+      "studies": 1,
+      "study_ids": [
+        "beauchamp_study_2022"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Multiple scenario tags",
+      "target": "Field Study",
+      "studies": 1,
+      "study_ids": [
+        "de_ceunynck_interact_2022"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Multiple scenario tags",
+      "target": "Multiple methods",
+      "studies": 1,
+      "study_ids": [
+        "maruhn_analyzing_2020"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Intersection only",
+      "target": "VR HMD",
+      "studies": 2,
+      "study_ids": [
+        "deb_investigating_2018",
+        "deb_how_2020"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Multiple scenario tags",
+      "target": "Wizard-of-Oz",
+      "studies": 1,
+      "study_ids": [
+        "moore_case_2019"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unclear",
+      "target": "Wizard-of-Oz",
+      "studies": 1,
+      "study_ids": [
+        "dey_distance-dependent_2020"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unclear",
+      "target": "VR screen",
+      "studies": 1,
+      "study_ids": [
+        "metayer_improving_2021"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Shared space only",
+      "target": "Video / photo / web survey",
+      "studies": 1,
+      "study_ids": [
+        "lau_investigating_2021"
+      ]
+    },
+    {
+      "stage": 4,
+      "source": "Unsignalized only",
+      "target": "AR / 360° video VR",
+      "studies": 1,
+      "study_ids": [
+        "kang_designing_2023"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "Wizard-of-Oz",
+      "target": "Statistical tests / description",
+      "studies": 8,
+      "study_ids": [
+        "currano_vamos_2018",
+        "rodriguez_palmeiro_interaction_2018",
+        "joisten_displaying_2020",
+        "habibovic_communicating_2018",
+        "moore_case_2019",
+        "dey_distance-dependent_2020",
+        "wang_pedestrian_2021",
+        "faas_self-driving_2021"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "VR CAVE",
+      "target": "Statistical tests / description",
+      "studies": 3,
+      "study_ids": [
+        "woodman_gap_2019",
+        "lee_learning_2022",
+        "andrijanto_application_2022"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "VR HMD",
+      "target": "Statistical tests / description",
+      "studies": 13,
+      "study_ids": [
+        "de_clercq_external_2019",
+        "mahadevan_av-pedestrian_2019",
+        "chung_effects_2020",
+        "wang_roles_2020",
+        "dietrich_implicit_2020",
+        "colley_effects_2022",
+        "wang_effect_2022",
+        "deb_investigating_2018",
+        "soshiroda_stopping_2021",
+        "furuya_autonomous_2021",
+        "chang_can_2022",
+        "bindschadel_two-step_2022",
+        "hubner_external_2022"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "VR CAVE",
+      "target": "Linear models",
+      "studies": 2,
+      "study_ids": [
+        "tapiro_cell_2016",
+        "tapiro_pedestrian_2020"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "VR HMD",
+      "target": "Linear models",
+      "studies": 9,
+      "study_ids": [
+        "hollander_investigating_2019",
+        "ackermans_effects_2020",
+        "bindschadel_interaction_2021",
+        "sahin_deviant_2022",
+        "zou_pedestrian_2023",
+        "lanzer_interaction_2023",
+        "feng_does_2023",
+        "schmitt_can_2022",
+        "bindschadel_active_2022"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "VR HMD",
+      "target": "Discrete-choice models",
+      "studies": 5,
+      "study_ids": [
+        "nunez_velasco_studying_2019",
+        "chen_comparison_2020",
+        "watanabe_analysis_2023",
+        "sobhani_impact_2018",
+        "deb_how_2020"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "Field Study",
+      "target": "Multiple model families",
+      "studies": 1,
+      "study_ids": [
+        "li_-road_2020"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "VR screen",
+      "target": "Linear models",
+      "studies": 2,
+      "study_ids": [
+        "razmi_rad_pedestrians_2020",
+        "shen_relations_2015"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "VR HMD",
+      "target": "Multiple model families",
+      "studies": 4,
+      "study_ids": [
+        "nunez_velasco_will_2021",
+        "figueroa-medina_analysis_2023",
+        "song_pedestrians_2023",
+        "dey_towards_2021"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "VR CAVE",
+      "target": "Discrete-choice models",
+      "studies": 6,
+      "study_ids": [
+        "tian_explaining_2022",
+        "jiang_action_2016",
+        "jiang_acting_2018",
+        "jiang_joint_2019",
+        "oneal_how_2019",
+        "jiang_crossing_2021"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "VR CAVE",
+      "target": "Multiple model families",
+      "studies": 1,
+      "study_ids": [
+        "tian_deceleration_2023"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "VR HMD",
+      "target": "Hybrid models",
+      "studies": 3,
+      "study_ids": [
+        "jayaraman_analysis_2020",
+        "jayaraman_multimodal_2021",
+        "kim_pedestrian_2020"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "VR HMD",
+      "target": "Deep learning",
+      "studies": 3,
+      "study_ids": [
+        "kalatian_decoding_2021",
+        "kalatian_context-aware_2022",
+        "shipman_novel_2022"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "Multiple methods",
+      "target": "Psychological models",
+      "studies": 1,
+      "study_ids": [
+        "pekkanen_variable-drift_2022"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "VR HMD",
+      "target": "Psychological models",
+      "studies": 1,
+      "study_ids": [
+        "giles_at_2019"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "VR HMD",
+      "target": "Causal models",
+      "studies": 1,
+      "study_ids": [
+        "kwon_pedestrians_2022"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "Video / photo / web survey",
+      "target": "Discrete-choice models",
+      "studies": 1,
+      "study_ids": [
+        "joisten_communication_2021"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "Video / photo / web survey",
+      "target": "Statistical tests / description",
+      "studies": 4,
+      "study_ids": [
+        "hagenzieker_interactions_2020",
+        "lau_investigating_2021",
+        "wilbrink_scaling_2021",
+        "colley_scalability_2023"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "Video / photo / web survey",
+      "target": "Linear models",
+      "studies": 1,
+      "study_ids": [
+        "vlakveld_cyclists_2020"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "Field Study",
+      "target": "Linear models",
+      "studies": 2,
+      "study_ids": [
+        "oskina_safety_2023",
+        "beauchamp_study_2022"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "AR / 360° video VR",
+      "target": "Linear models",
+      "studies": 1,
+      "study_ids": [
+        "nunez_velasco_cyclists_2021"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "Field Study",
+      "target": "Discrete-choice models",
+      "studies": 1,
+      "study_ids": [
+        "gehrke_observed_2023"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "Field Study",
+      "target": "Statistical tests / description",
+      "studies": 2,
+      "study_ids": [
+        "madigan_understanding_2019",
+        "de_ceunynck_interact_2022"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "Multiple methods",
+      "target": "Discrete-choice models",
+      "studies": 2,
+      "study_ids": [
+        "mallaro_comparison_2017",
+        "maruhn_analyzing_2020"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "Multiple methods",
+      "target": "Statistical tests / description",
+      "studies": 2,
+      "study_ids": [
+        "pala_analysis_2021",
+        "fuest_comparison_2020"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "VR screen",
+      "target": "Statistical tests / description",
+      "studies": 1,
+      "study_ids": [
+        "metayer_improving_2021"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "Wizard-of-Oz",
+      "target": "Linear models",
+      "studies": 1,
+      "study_ids": [
+        "bindschadel_using_2023"
+      ]
+    },
+    {
+      "stage": 5,
+      "source": "AR / 360° video VR",
+      "target": "Statistical tests / description",
+      "studies": 1,
+      "study_ids": [
+        "kang_designing_2023"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "currano_vamos_2018",
+      "label": "Currano et al. (2018)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Shared space only",
+        "Wizard-of-Oz",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "rodriguez_palmeiro_interaction_2018",
+      "label": "Rodríguez Palmeiro et al. (2018)",
+      "road_users_raw": "1 ped-1 AV | 1 ped-1 HDV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "Wizard-of-Oz",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "woodman_gap_2019",
+      "label": "Woodman et al. (2019)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Multiple scenario tags",
+        "VR CAVE",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "de_clercq_external_2019",
+      "label": "De Clercq et al. (2019)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "mahadevan_av-pedestrian_2019",
+      "label": "Mahadevan et al. (2019)",
+      "road_users_raw": "multi peds-multi AVs | (CG agents) (mixed env)",
+      "setup": "Multiple road users × multiple vehicles",
+      "reason": "Explicit multi peds–multi AVs; includes CG agents.",
+      "annotations": [
+        "Explicit CG actors; not evidence of multiple human participants",
+        "Background traffic/users mentioned; use explicit focal counts only"
+      ],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple road users × multiple vehicles",
+        "Unsignalized only",
+        "VR HMD",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "chung_effects_2020",
+      "label": "Chung et al. (2020)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "wang_roles_2020",
+      "label": "Wang et al. (2020)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Multiple scenario tags",
+        "VR HMD",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "joisten_displaying_2020",
+      "label": "Joisten et al. (2020)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "Wizard-of-Oz",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "dietrich_implicit_2020",
+      "label": "Dietrich et al. (2020)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unclear",
+        "VR HMD",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "colley_effects_2022",
+      "label": "Colley et al. (2022)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "lee_learning_2022",
+      "label": "Lee et al. (2022)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR CAVE",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "andrijanto_application_2022",
+      "label": "Andrijanto et al. (2022)",
+      "road_users_raw": "1 ped-1 pod",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous shuttle",
+        "1 road user × 1 vehicle",
+        "Shared space only",
+        "VR CAVE",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "tapiro_cell_2016",
+      "label": "Tapiro et al. (2016)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR CAVE",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "hollander_investigating_2019",
+      "label": "Holländer et al. (2019)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "nunez_velasco_studying_2019",
+      "label": "Nuñez Velasco et al. (2019)",
+      "road_users_raw": "1 ped - 1 shuttle",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous shuttle",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "ackermans_effects_2020",
+      "label": "Ackermans et al. (2020)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "li_-road_2020",
+      "label": "Li et al. (2020)",
+      "road_users_raw": "1 ped - 1 AV, multi peds - 1 AV",
+      "setup": "Multiple setups tested",
+      "reason": "The description explicitly includes alternatives with different actor counts.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple setups tested",
+        "Shared space only",
+        "Field Study",
+        "Multiple model families"
+      ]
+    },
+    {
+      "id": "tapiro_pedestrian_2020",
+      "label": "Tapiro et al. (2020)",
+      "road_users_raw": "1 ped - multi AV",
+      "setup": "1 road user × multiple vehicles",
+      "reason": "Explicit 1 ped–multi AV.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × multiple vehicles",
+        "Unsignalized only",
+        "VR CAVE",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "razmi_rad_pedestrians_2020",
+      "label": "Razmi Rad et al. (2020)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR screen",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "bindschadel_interaction_2021",
+      "label": "Bindschädel et al. (2021)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "chen_comparison_2020",
+      "label": "Chen et al. (2020)",
+      "road_users_raw": "1 ped - 1 AV | mixed environment",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [
+        "Background traffic/users mentioned; use explicit focal counts only"
+      ],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "nunez_velasco_will_2021",
+      "label": "Nuñez Velasco et al. (2021)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Multiple model families"
+      ]
+    },
+    {
+      "id": "sahin_deviant_2022",
+      "label": "Şahin et al. (2022)",
+      "road_users_raw": "1 ped - 1 AV | 1 ped - 1 HDV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "wang_effect_2022",
+      "label": "Wang et al. (2022)",
+      "road_users_raw": "1 ped - 2 AVs",
+      "setup": "1 road user × multiple vehicles",
+      "reason": "Explicit 1 ped–2 AVs.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × multiple vehicles",
+        "Unsignalized only",
+        "VR HMD",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "tian_explaining_2022",
+      "label": "Tian et al. (2022)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR CAVE",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "tian_deceleration_2023",
+      "label": "Tian et al. (2023)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR CAVE",
+        "Multiple model families"
+      ]
+    },
+    {
+      "id": "zou_pedestrian_2023",
+      "label": "Zou et al. (2023)",
+      "road_users_raw": "1 ped - 1 AV | 1 ped - multi AVs",
+      "setup": "Multiple setups tested",
+      "reason": "The description explicitly includes alternatives with different actor counts.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple setups tested",
+        "Unclear",
+        "VR HMD",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "figueroa-medina_analysis_2023",
+      "label": "Figueroa-Medina et al. (2023)",
+      "road_users_raw": "1 ped - 1 AV | 1 ped - 2 AVs | (same direction)",
+      "setup": "Multiple setups tested",
+      "reason": "The description explicitly includes alternatives with different actor counts.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple setups tested",
+        "Unsignalized only",
+        "VR HMD",
+        "Multiple model families"
+      ]
+    },
+    {
+      "id": "song_pedestrians_2023",
+      "label": "Song et al. (2023)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Multiple model families"
+      ]
+    },
+    {
+      "id": "watanabe_analysis_2023",
+      "label": "Watanabe et al. (2023)",
+      "road_users_raw": "1 ped - 2 AVs",
+      "setup": "1 road user × multiple vehicles",
+      "reason": "Explicit 1 ped–2 AVs.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × multiple vehicles",
+        "Unsignalized only",
+        "VR HMD",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "sobhani_impact_2018",
+      "label": "Sobhani and Farooq (2018)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "jayaraman_analysis_2020",
+      "label": "Jayaraman et al. (2020)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Hybrid models"
+      ]
+    },
+    {
+      "id": "jayaraman_multimodal_2021",
+      "label": "Jayaraman et al. (2021)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Hybrid models"
+      ]
+    },
+    {
+      "id": "kalatian_decoding_2021",
+      "label": "Kalatian and Farooq (2021)",
+      "road_users_raw": "1 ped - 1 AV | 1 ped - multi AVs",
+      "setup": "Multiple setups tested",
+      "reason": "The description explicitly includes alternatives with different actor counts.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple setups tested",
+        "Unclear",
+        "VR HMD",
+        "Deep learning"
+      ]
+    },
+    {
+      "id": "kim_pedestrian_2020",
+      "label": "Kim et al. (2020)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Signalized only",
+        "VR HMD",
+        "Hybrid models"
+      ]
+    },
+    {
+      "id": "kalatian_context-aware_2022",
+      "label": "Kalatian and Farooq (2022)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unclear",
+        "VR HMD",
+        "Deep learning"
+      ]
+    },
+    {
+      "id": "shipman_novel_2022",
+      "label": "Shipman et al. (2022)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Deep learning"
+      ]
+    },
+    {
+      "id": "pekkanen_variable-drift_2022",
+      "label": "Pekkanen et al. (2022)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "Multiple methods",
+        "Psychological models"
+      ]
+    },
+    {
+      "id": "giles_at_2019",
+      "label": "Giles et al. (2019)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Psychological models"
+      ]
+    },
+    {
+      "id": "shen_relations_2015",
+      "label": "Shen et al. (2015)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR screen",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "kwon_pedestrians_2022",
+      "label": "Kwon et al. (2022)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Multiple scenario tags",
+        "VR HMD",
+        "Causal models"
+      ]
+    },
+    {
+      "id": "jiang_action_2016",
+      "label": "Jiang et al. (2016)",
+      "road_users_raw": "1 ped - 1 AV | 2 peds - 1 AV | (both CG and human)",
+      "setup": "Multiple setups tested",
+      "reason": "The description explicitly includes alternatives with different actor counts.",
+      "annotations": [
+        "Explicit CG actors; not evidence of multiple human participants",
+        "Explicit human co-actor annotation"
+      ],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple setups tested",
+        "Unsignalized only",
+        "VR CAVE",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "jiang_acting_2018",
+      "label": "Jiang et al. (2018)",
+      "road_users_raw": "1 ped - 1 AV | 2 peds - 1 AV | (human)",
+      "setup": "Multiple setups tested",
+      "reason": "The description explicitly includes alternatives with different actor counts.",
+      "annotations": [
+        "Explicit human co-actor annotation"
+      ],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple setups tested",
+        "Unsignalized only",
+        "VR CAVE",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "jiang_joint_2019",
+      "label": "Jiang et al. (2019)",
+      "road_users_raw": "1 ped - 1 AV | 2 peds - 1 AV | (both CG and human)",
+      "setup": "Multiple setups tested",
+      "reason": "The description explicitly includes alternatives with different actor counts.",
+      "annotations": [
+        "Explicit CG actors; not evidence of multiple human participants",
+        "Explicit human co-actor annotation"
+      ],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple setups tested",
+        "Unsignalized only",
+        "VR CAVE",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "oneal_how_2019",
+      "label": "O’Neal et al. (2019)",
+      "road_users_raw": "1 ped - 1 AV | 2 peds - 1 AV | (human)",
+      "setup": "Multiple setups tested",
+      "reason": "The description explicitly includes alternatives with different actor counts.",
+      "annotations": [
+        "Explicit human co-actor annotation"
+      ],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple setups tested",
+        "Unsignalized only",
+        "VR CAVE",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "joisten_communication_2021",
+      "label": "Joisten et al. (2021)",
+      "road_users_raw": "1 ped - 1 AV | 3 peds - 1 AV | (2 CG non-crossers)",
+      "setup": "Multiple setups tested",
+      "reason": "The description explicitly includes alternatives with different actor counts.",
+      "annotations": [
+        "Explicit CG actors; not evidence of multiple human participants"
+      ],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple setups tested",
+        "Unsignalized only",
+        "Video / photo / web survey",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "jiang_crossing_2021",
+      "label": "Jiang et al. (2021)",
+      "road_users_raw": "1 ped - 1 AV | 2 peds - 1 AV | (box or humanoid CG)",
+      "setup": "Multiple setups tested",
+      "reason": "The description explicitly includes alternatives with different actor counts.",
+      "annotations": [
+        "Explicit CG actors; not evidence of multiple human participants"
+      ],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple setups tested",
+        "Unsignalized only",
+        "VR CAVE",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "lanzer_interaction_2023",
+      "label": "Lanzer et al. (2023)",
+      "road_users_raw": "1 ped - 2 AVs | 4 peds - AVs | (CG crossers)",
+      "setup": "Multiple setups tested",
+      "reason": "The description explicitly includes alternatives with different actor counts.",
+      "annotations": [
+        "Explicit CG actors; not evidence of multiple human participants",
+        "Second condition says 4 peds–AVs without a precise vehicle count; alternative road-user counts establish multiple setups"
+      ],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple setups tested",
+        "Unsignalized only",
+        "VR HMD",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "feng_does_2023",
+      "label": "Feng et al. (2023)",
+      "road_users_raw": "1 ped - 1 AV | 2 peds - 1 AV | (human)",
+      "setup": "Multiple setups tested",
+      "reason": "The description explicitly includes alternatives with different actor counts.",
+      "annotations": [
+        "Explicit human co-actor annotation"
+      ],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple setups tested",
+        "Multiple scenario tags",
+        "VR HMD",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "hagenzieker_interactions_2020",
+      "label": "Hagenzieker et al. (2020)",
+      "road_users_raw": "1 cyc - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Cyclists only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unclear",
+        "Video / photo / web survey",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "vlakveld_cyclists_2020",
+      "label": "Vlakveld et al. (2020)",
+      "road_users_raw": "1 cyc - 1 AV | 1 cyc - 1 AV (eHMI) | 1 cyc - 1 HDV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Cyclists only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Intersection only",
+        "Video / photo / web survey",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "oskina_safety_2023",
+      "label": "Oskina et al. (2023)",
+      "road_users_raw": "1 cyc - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Cyclists only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unclear",
+        "Field Study",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "nunez_velasco_cyclists_2021",
+      "label": "Nuñez Velasco et al. (2021)",
+      "road_users_raw": "1 cyc - 1 AV | 1 cyc - 1 HDV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Cyclists only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Intersection only",
+        "AR / 360° video VR",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "beauchamp_study_2022",
+      "label": "Beauchamp et al. (2022)",
+      "road_users_raw": "1 ped - 1 pod | 1 cyc - 1 pod | 1 driver - 1 pod",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians & cyclists",
+        "Autonomous shuttle",
+        "1 road user × 1 vehicle",
+        "Intersection only",
+        "Field Study",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "gehrke_observed_2023",
+      "label": "Gehrke et al. (2023)",
+      "road_users_raw": "1 ped - 1 delivery vehicle | 1 cyc - 1 delivery vehicle",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians & cyclists",
+        "Delivery vehicle",
+        "1 road user × 1 vehicle",
+        "Shared space only",
+        "Field Study",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "madigan_understanding_2019",
+      "label": "Madigan et al. (2019)",
+      "road_users_raw": "1 ped - 1 shuttle, | 1 cyc - 1 shuttle | (presence of other users)",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [
+        "Background traffic/users mentioned; use explicit focal counts only"
+      ],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians & cyclists",
+        "Autonomous shuttle",
+        "1 road user × 1 vehicle",
+        "Unclear",
+        "Field Study",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "de_ceunynck_interact_2022",
+      "label": "De Ceunynck et al. (2022)",
+      "road_users_raw": "pedestrians, | cyclists, | e-scooters - | automated shuttles",
+      "setup": "Unclear / not reported",
+      "reason": "User and vehicle types are listed without counts; plurals do not establish simultaneous multiplicity.",
+      "annotations": [],
+      "stages": [
+        "Behavior understanding\n& prediction",
+        "Pedestrians & cyclists",
+        "Autonomous shuttle",
+        "Unclear / not reported",
+        "Multiple scenario tags",
+        "Field Study",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "mallaro_comparison_2017",
+      "label": "Mallaro et al. (2017)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Data collection\nmethods comparison",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "Multiple methods",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "pala_analysis_2021",
+      "label": "Pala et al. (2021)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Data collection\nmethods comparison",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "Multiple methods",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "maruhn_analyzing_2020",
+      "label": "Maruhn et al. (2020)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Data collection\nmethods comparison",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Multiple scenario tags",
+        "Multiple methods",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "fuest_comparison_2020",
+      "label": "Fuest et al. (2020)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Data collection\nmethods comparison",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "Multiple methods",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "habibovic_communicating_2018",
+      "label": "Habibovic et al. (2018)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "Wizard-of-Oz",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "deb_investigating_2018",
+      "label": "Deb et al. (2018)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Intersection only",
+        "VR HMD",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "moore_case_2019",
+      "label": "Moore et al. (2019)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Multiple scenario tags",
+        "Wizard-of-Oz",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "deb_how_2020",
+      "label": "Deb et al. (2020)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Intersection only",
+        "VR HMD",
+        "Discrete-choice models"
+      ]
+    },
+    {
+      "id": "dey_distance-dependent_2020",
+      "label": "Dey et al. (2020)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unclear",
+        "Wizard-of-Oz",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "metayer_improving_2021",
+      "label": "Métayer and Coeugnet (2021)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unclear",
+        "VR screen",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "lau_investigating_2021",
+      "label": "Lau et al. (2021)",
+      "road_users_raw": "1 ped-1 automated bus",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous shuttle",
+        "1 road user × 1 vehicle",
+        "Shared space only",
+        "Video / photo / web survey",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "wang_pedestrian_2021",
+      "label": "Wang et al. (2021)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "Wizard-of-Oz",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "wilbrink_scaling_2021",
+      "label": "Wilbrink et al. (2021)",
+      "road_users_raw": "1 ped-1 AV | multi peds-1 AV (1 CG agent)",
+      "setup": "Multiple setups tested",
+      "reason": "The description explicitly includes alternatives with different actor counts.",
+      "annotations": [
+        "Explicit CG actors; not evidence of multiple human participants"
+      ],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple setups tested",
+        "Unsignalized only",
+        "Video / photo / web survey",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "soshiroda_stopping_2021",
+      "label": "Soshiroda et al. (2021)",
+      "road_users_raw": "1 ped-1 automated bus | 1 ped-1 automated golf cart",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous shuttle",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "furuya_autonomous_2021",
+      "label": "Furuya et al. (2021)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "faas_self-driving_2021",
+      "label": "Faas et al. (2021)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "Wizard-of-Oz",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "dey_towards_2021",
+      "label": "Dey et al. (2021)",
+      "road_users_raw": "2 peds-1 AV | (1 CG agent)",
+      "setup": "Multiple road users × 1 vehicle",
+      "reason": "Explicit 2 peds–1 AV, with one CG agent.",
+      "annotations": [
+        "Explicit CG actors; not evidence of multiple human participants"
+      ],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple road users × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Multiple model families"
+      ]
+    },
+    {
+      "id": "chang_can_2022",
+      "label": "Chang et al. (2022)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "schmitt_can_2022",
+      "label": "Schmitt et al. (2022)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "bindschadel_two-step_2022",
+      "label": "Bindschädel et al. (2022)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "bindschadel_active_2022",
+      "label": "Bindschädel et al. (2022)",
+      "road_users_raw": "1 ped - 1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "VR HMD",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "hubner_external_2022",
+      "label": "Hübner et al. (2022)",
+      "road_users_raw": "1 ped-1 AV | 1 ped-1 AV-1 HDV mixed env",
+      "setup": "Multiple setups tested",
+      "reason": "The description explicitly includes alternatives with different actor counts.",
+      "annotations": [
+        "Background traffic/users mentioned; use explicit focal counts only"
+      ],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple setups tested",
+        "Unsignalized only",
+        "VR HMD",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "bindschadel_using_2023",
+      "label": "Bindschädel et al. (2023)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "Wizard-of-Oz",
+        "Linear models"
+      ]
+    },
+    {
+      "id": "kang_designing_2023",
+      "label": "Kang et al. (2023)",
+      "road_users_raw": "1 ped-1 AV",
+      "setup": "1 road user × 1 vehicle",
+      "reason": "All explicitly counted focal interactions are 1:1; changes in actor type alone do not create a different count setup.",
+      "annotations": [],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "1 road user × 1 vehicle",
+        "Unsignalized only",
+        "AR / 360° video VR",
+        "Statistical tests / description"
+      ]
+    },
+    {
+      "id": "colley_scalability_2023",
+      "label": "Colley et al. (2023)",
+      "road_users_raw": "1 ped-multi AVs | multi peds-multi AVs | (2 CG agents) | mixed env",
+      "setup": "Multiple setups tested",
+      "reason": "The description explicitly includes alternatives with different actor counts.",
+      "annotations": [
+        "Explicit CG actors; not evidence of multiple human participants",
+        "Background traffic/users mentioned; use explicit focal counts only"
+      ],
+      "stages": [
+        "Communication design\n& behavior evaluation",
+        "Pedestrians only",
+        "Autonomous car",
+        "Multiple setups tested",
+        "Unsignalized only",
+        "Video / photo / web survey",
+        "Statistical tests / description"
+      ]
+    }
+  ]
+}
